@@ -194,6 +194,65 @@
         "padding_bottom": 0
       }
     },
+    "multirow_LzKTTk": {
+      "type": "multirow",
+      "blocks": {
+        "row_kepgHF": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Clean_and_sanitize_lavender__49269.png",
+            "caption": "Featured",
+            "heading": "Beeswax Hand Sanitizer - Organic Lavender Oil",
+            "text": "",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/beeswax-hand-sanitizer-organic-lavender-oil-12-pack"
+          }
+        },
+        "row_7UJw8e": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/soften_and_moisturize_citrus__52946.png",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_t4EFWh": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Info_1_2__39734.jpg",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_kepgHF",
+        "row_7UJw8e",
+        "row_t4EFWh"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "large",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_Kq6Q4G": {
       "type": "image-with-text",
       "blocks": {
@@ -292,6 +351,7 @@
     "multicolumn",
     "image_banner_icEYxY",
     "rich_text_6fWKfa",
+    "multirow_LzKTTk",
     "image_with_text_Kq6Q4G",
     "rich_text_JxRgxE"
   ]
