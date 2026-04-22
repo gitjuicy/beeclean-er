@@ -149,9 +149,6 @@
         "heading_iTCpwU",
         "text_6cP7jH"
       ],
-      "custom_css": [
-        "div#Banner-template--18631716274275__image_banner_icEYxY {background: #ff0000;}"
-      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/BeeClean_Web_Assets_BeeBG.png",
