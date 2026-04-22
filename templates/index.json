@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -35,14 +44,16 @@
         "button"
       ],
       "settings": {
+        "image": "shopify://shop_images/Faire_Header_Opt2_030226.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
+        "image_behavior": "none",
         "desktop_content_position": "bottom-center",
-        "show_text_box": false,
         "desktop_content_alignment": "center",
+        "show_text_box": false,
         "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
         "show_text_below": false
       }
     },
@@ -52,97 +63,40 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "sanitizer that's actually good for your hands.",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Organic beeswax hand sanitizer that kills 99.9% of germs, protects and moisturizes while it works, and is made with organic ingredients you can actually pronounce.</p>"
+          }
+        },
+        "button_nERdAB": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading",
-        "text"
+        "text",
+        "button_nERdAB"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "heading_size": "h1",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "multicolumn": {
@@ -151,8 +105,9 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify://shop_images/BeeClean_Web_Assets_Icons-14.png",
+            "title": "KILLS 99.9% OF GERMS",
+            "text": "<p>Beeswax Protects AND moisturizes</p>",
             "link_label": "",
             "link": ""
           }
@@ -160,8 +115,9 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify://shop_images/BeeClean_Web_Assets_Icons-15.png",
+            "title": "NATURALLY MOISTURIZES",
+            "text": "<p>With Organic Bee's Wax, Vitamin E, and Lanolin</p>",
             "link_label": "",
             "link": ""
           }
@@ -169,8 +125,9 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify://shop_images/BeeClean_Web_Assets_Icons-16.png",
+            "title": "Conveniently sized",
+            "text": "<p>The size of a credit card</p>",
             "link_label": "",
             "link": ""
           }
@@ -186,25 +143,84 @@
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false,
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "rich_text_pacegt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GGzCBF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Not your average sanitizer.",
+            "heading_size": "h1"
+          }
+        },
+        "text_R48JfV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Most hand sanitizers dry you out and smell like a hospital. We thought that was a pretty low bar to clear.</p><p>Bee Clean is built around a patent-pending beeswax formula — sourced from US bee communities — that forms a protective, antimicrobial barrier while softening your skin. Organic essential oils. 200 sprays per bottle. Fits in your pocket like a credit card.</p><p>Because the everyday stuff should work beautifully.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GGzCBF",
+        "text_R48JfV"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_6fWKfa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Jfm6Le": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>our scents</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_UaW4ti": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Made from organic essential oils</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Jfm6Le",
+        "text_UaW4ti"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "multicolumn",
+    "rich_text_pacegt",
+    "rich_text_6fWKfa"
   ]
 }
