@@ -24,15 +24,15 @@
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "Help and Support",
             "menu": "footer"
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
+            "heading": "Navigation",
+            "menu": "navigation-footer"
           }
         },
         "footer-2": {
