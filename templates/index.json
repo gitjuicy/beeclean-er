@@ -164,36 +164,6 @@
         "show_text_below": true
       }
     },
-    "rich_text_6fWKfa": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_Jfm6Le": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>our scents</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_UaW4ti": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Made from organic essential oils</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Jfm6Le",
-        "text_UaW4ti"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "multirow_LzKTTk": {
       "type": "multirow",
       "blocks": {
@@ -368,7 +338,6 @@
     "rich_text",
     "multicolumn",
     "image_banner_icEYxY",
-    "rich_text_6fWKfa",
     "multirow_LzKTTk",
     "image_with_text_Kq6Q4G",
     "rich_text_JxRgxE",
