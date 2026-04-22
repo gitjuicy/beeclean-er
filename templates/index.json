@@ -214,6 +214,97 @@
         "padding_top": 40,
         "padding_bottom": 0
       }
+    },
+    "image_with_text_Kq6Q4G": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7Yw9pX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Good for you. Good for the bees. Good for the planet.",
+            "heading_size": "h1"
+          }
+        },
+        "text_yVACLG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're a New Mexico-born brand that uses business as a force for the common good — supporting bee communities, sourcing organic ingredients, and doing the harder right thing every time.<br/><br/>Why Beeswax? Beeswax has been used as a moisturizer for hundreds of years, but nobody has been able to figure out how to use it in a hand sanitizer.</p><p>Nothing else feels like it, smells like it, or works like it. BeeClean mists on neatly. Kills germs effectively. And protects and moisturizes hands beautifully.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_3qpmdC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_7Yw9pX",
+        "text_yVACLG",
+        "button_3qpmdC"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/ante-hamersmit-gi1f13S1-64-unsplash_aed4f63e-526e-4091-b771-6aa332f51d34.jpg",
+        "height": "large",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_JxRgxE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JWUP4F": {
+          "type": "heading",
+          "settings": {
+            "heading": "BECOME A WHOLESALER",
+            "heading_size": "h1"
+          }
+        },
+        "text_6DBKGM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We partner with both small merchants and large wholesalers. With a supply chain you can count on and an accessible sales approach, we've proven a fantastic partner that cares.</p>"
+          }
+        },
+        "button_GhEPVh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JWUP4F",
+        "text_6DBKGM",
+        "button_GhEPVh"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -221,6 +312,8 @@
     "rich_text",
     "multicolumn",
     "rich_text_pacegt",
-    "rich_text_6fWKfa"
+    "rich_text_6fWKfa",
+    "image_with_text_Kq6Q4G",
+    "rich_text_JxRgxE"
   ]
 }
