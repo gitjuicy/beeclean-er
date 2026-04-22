@@ -17,7 +17,8 @@
         "image_knyej4": {
           "type": "image",
           "settings": {
-            "image_width": 100,
+            "image": "shopify://shop_images/bottom-logos.webp",
+            "image_width": 550,
             "alignment": "center"
           }
         },
