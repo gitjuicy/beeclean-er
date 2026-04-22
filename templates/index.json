@@ -212,11 +212,11 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/soften_and_moisturize_citrus__52946.png",
-            "caption": "Caption",
-            "heading": "Row",
+            "caption": "Featured",
+            "heading": "Beeswax Hand Sanitizer - Citrus & Peppermint",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/beeswax-hand-sanitizer-citrus-and-peppermint-4-pack-copy"
           }
         },
         "row_t4EFWh": {
@@ -224,7 +224,7 @@
           "settings": {
             "image": "shopify://shop_images/Info_1_2__39734.jpg",
             "caption": "Caption",
-            "heading": "Row",
+            "heading": "Beeswax Hand Sanitizer - Variety Packs",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "button_label": "Button label",
             "button_link": ""
@@ -343,6 +343,24 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "177688032448317b7e": {
+      "type": "apps",
+      "blocks": {
+        "mappy_store_locator_page_embed_block_KB9HwV": {
+          "type": "shopify://apps/mappy-store-locator/blocks/page-embed-block/edfca2bd-82ad-413c-b32c-580d239b17ab",
+          "settings": {
+            "is_show_heading_map": true,
+            "is_show_description_map": false
+          }
+        }
+      },
+      "block_order": [
+        "mappy_store_locator_page_embed_block_KB9HwV"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -353,6 +371,7 @@
     "rich_text_6fWKfa",
     "multirow_LzKTTk",
     "image_with_text_Kq6Q4G",
-    "rich_text_JxRgxE"
+    "rich_text_JxRgxE",
+    "177688032448317b7e"
   ]
 }
