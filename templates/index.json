@@ -11,6 +11,9 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "custom_css": [
+        "::after {display: none;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Faire_Header_Opt2_030226.jpg",
         "image_overlay_opacity": 40,
