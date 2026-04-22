@@ -11,38 +11,6 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
       "settings": {
         "image": "shopify://shop_images/Faire_Header_Opt2_030226.jpg",
         "image_overlay_opacity": 40,
@@ -305,6 +273,52 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "multicolumn_GY3KbM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bK6KMx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BeeClean_Web_Assets-12.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AgKPHQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BeeClean_Web_Assets-13.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_bK6KMx",
+        "column_AgKPHQ"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -314,6 +328,7 @@
     "rich_text_pacegt",
     "rich_text_6fWKfa",
     "image_with_text_Kq6Q4G",
-    "rich_text_JxRgxE"
+    "rich_text_JxRgxE",
+    "multicolumn_GY3KbM"
   ]
 }
