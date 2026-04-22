@@ -127,34 +127,41 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_pacegt": {
-      "type": "rich-text",
+    "image_banner_icEYxY": {
+      "type": "image-banner",
       "blocks": {
-        "heading_GGzCBF": {
+        "heading_iTCpwU": {
           "type": "heading",
           "settings": {
             "heading": "Not your average sanitizer.",
             "heading_size": "h1"
           }
         },
-        "text_R48JfV": {
+        "text_6cP7jH": {
           "type": "text",
           "settings": {
-            "text": "<p>Most hand sanitizers dry you out and smell like a hospital. We thought that was a pretty low bar to clear.</p><p>Bee Clean is built around a patent-pending beeswax formula — sourced from US bee communities — that forms a protective, antimicrobial barrier while softening your skin. Organic essential oils. 200 sprays per bottle. Fits in your pocket like a credit card.</p><p>Because the everyday stuff should work beautifully.</p>"
+            "text": "Most hand sanitizers dry you out and smell like a hospital. We thought that was a pretty low bar to clear.Bee Clean is built around a patent-pending beeswax formula — sourced from US bee communities — that forms a protective, antimicrobial barrier while softening your skin. Organic essential oils. 200 sprays per bottle. Fits in your pocket like a credit card.Because the everyday stuff should work beautifully.",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_GGzCBF",
-        "text_R48JfV"
+        "heading_iTCpwU",
+        "text_6cP7jH"
       ],
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "image": "shopify://shop_images/BeeClean_Web_Assets_BeeBG.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
       }
     },
     "rich_text_6fWKfa": {
@@ -222,7 +229,7 @@
       "settings": {
         "image": "shopify://shop_images/ante-hamersmit-gi1f13S1-64-unsplash_aed4f63e-526e-4091-b771-6aa332f51d34.jpg",
         "height": "large",
-        "desktop_image_width": "large",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
@@ -277,62 +284,15 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "multicolumn_GY3KbM": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_bK6KMx": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/BeeClean_Web_Assets-12.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_AgKPHQ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/BeeClean_Web_Assets-13.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_bK6KMx",
-        "column_AgKPHQ"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 2,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
     "multicolumn",
-    "rich_text_pacegt",
+    "image_banner_icEYxY",
     "rich_text_6fWKfa",
     "image_with_text_Kq6Q4G",
-    "rich_text_JxRgxE",
-    "multicolumn_GY3KbM"
+    "rich_text_JxRgxE"
   ]
 }
