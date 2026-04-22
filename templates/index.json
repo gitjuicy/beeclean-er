@@ -200,7 +200,7 @@
         "row_kepgHF": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Clean_and_sanitize_lavender__49269.png",
+            "image": "shopify://shop_images/81eAvAkX4_L._SL1500.webp",
             "caption": "Featured",
             "heading": "Beeswax Hand Sanitizer - Organic Lavender Oil",
             "text": "",
@@ -211,7 +211,7 @@
         "row_7UJw8e": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/soften_and_moisturize_citrus__52946.png",
+            "image": "shopify://shop_images/81iVzhCBzLL._SL1500.webp",
             "caption": "Featured",
             "heading": "Beeswax Hand Sanitizer - Citrus & Peppermint",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
@@ -222,12 +222,12 @@
         "row_t4EFWh": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Info_1_2__39734.jpg",
-            "caption": "Caption",
+            "image": "shopify://shop_images/bee-clean-beeswax-hand-sanitizer.webp",
+            "caption": "Featured",
             "heading": "Beeswax Hand Sanitizer - Variety Packs",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/beeswax-hand-sanitizer-variety-pack-2-of-each"
           }
         }
       },
@@ -238,12 +238,12 @@
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
-        "image_height": "large",
+        "image_height": "medium",
         "desktop_image_width": "medium",
         "image_layout": "alternate-left",
         "heading_size": "h1",
         "text_style": "body",
-        "button_style": "secondary",
+        "button_style": "primary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "mobile_content_alignment": "left",
