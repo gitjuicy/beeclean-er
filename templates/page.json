@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -6,9 +15,39 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_xzGWQq": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_A9ttVU": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>About Us</strong>",
+            "heading_size": "hxxl"
+          }
+        }
+      },
+      "block_order": [
+        "heading_A9ttVU"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/boris-smokrovic-gr7ZkoZnHXU-unsplash.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
+        "image_behavior": "fixed",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_xzGWQq"
   ]
 }
