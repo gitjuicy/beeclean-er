@@ -307,9 +307,7 @@
         "text_6DBKGM",
         "button_GhEPVh"
       ],
-      "custom_css": [
-        "::after {background-color: #686867; color: #fff;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
