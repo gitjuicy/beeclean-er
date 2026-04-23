@@ -18,7 +18,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/footer-logo.png",
-            "image_width": 550,
+            "image_width": 250,
             "alignment": "center"
           }
         },
@@ -39,8 +39,8 @@
         "footer-2": {
           "type": "text",
           "settings": {
-            "heading": "BeeCleanSpot, LLCPO Box 7459Albuquerque, NM 87194info@beecleanspot.com",
-            "subtext": ""
+            "heading": "BeeCleanSpot, LLCPO Box 7459Albuquerque, NM 87194",
+            "subtext": "<p>info@beecleanspot.com</p>"
           }
         }
       },
