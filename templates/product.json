@@ -12,12 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "sku_8dCFLT": {
-          "type": "sku",
-          "settings": {
-            "text_style": "body"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -65,23 +59,9 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "complementary_jQP4wd": {
-          "type": "complementary",
-          "settings": {
-            "block_heading": "Pairs well with",
-            "make_collapsible_row": false,
-            "icon": "price_tag",
-            "product_list_limit": 10,
-            "products_per_page": 3,
-            "pagination_style": "counter",
-            "image_ratio": "square",
-            "enable_quick_add": false
-          }
         }
       },
       "block_order": [
-        "sku_8dCFLT",
         "title",
         "caption",
         "price",
@@ -89,8 +69,7 @@
         "quantity_selector",
         "buy_buttons",
         "collapsible-row-0",
-        "share",
-        "complementary_jQP4wd"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
