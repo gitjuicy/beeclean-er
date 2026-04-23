@@ -12,7 +12,8 @@
   {{ 'mask-blobs.css' | asset_url | stylesheet_tag }}
 {%- endif -%}
 
-<script src="{{ 'main-search.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'main-search.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'custom-search.js' | asset_url }}" defer="defer"></script>
 
 <style>
   .template-search__header {
@@ -454,7 +455,7 @@
     {
       "type": "checkbox",
       "id": "enable_filtering",
-      "default": true,
+      "default": false,
       "label": "t:sections.main-collection-product-grid.settings.enable_filtering.label",
       "info": "t:sections.main-collection-product-grid.settings.enable_filtering.info"
     },
@@ -481,7 +482,7 @@
     {
       "type": "checkbox",
       "id": "enable_sorting",
-      "default": true,
+      "default": false,
       "label": "t:sections.main-collection-product-grid.settings.enable_sorting.label"
     },
     {

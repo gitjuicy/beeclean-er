@@ -1,0 +1,40 @@
+/* ============================================================
+   Product page — variant pill overrides
+   Targets Dawn's CSS custom property hooks and pill selectors
+   so theme files are never modified.
+   ============================================================ */
+
+/* Switch container to gap-based spacing so percentage widths work cleanly */
+.product-form__input--pill {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+/* Inactive state — grey outline and grey text, no fill */
+.product-form__input--pill input[type='radio'] + label {
+  --variant-pills-radius: 10px;
+  width: calc(50% - 0.4rem);
+  margin: 0;
+  background-color: transparent;
+  color: #888;
+  border-color: #888;
+}
+
+/* Keep the pseudo-element shadow in sync with the new radius */
+.product-form__input--pill input[type='radio'] + label::before {
+  border-radius: 10px;
+}
+
+/* Hover state — nudge border towards purple */
+.product-form__input--pill input[type='radio'] + label:hover {
+  border-color: #9788ab;
+  color: #9788ab;
+}
+
+/* Active/checked state — purple fill, white text */
+.product-form__input--pill input[type='radio']:checked + label {
+  background-color: #9788ab;
+  border-color: #9788ab;
+  color: #fff;
+}

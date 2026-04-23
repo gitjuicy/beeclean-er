@@ -373,6 +373,9 @@
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
+    {{ 'custom-global.css' | asset_url | stylesheet_tag }}
     {{ 'custom-header.css' | asset_url | stylesheet_tag }}
+    {{ 'custom-product.css' | asset_url | stylesheet_tag }}
+    {{ 'custom-search.css' | asset_url | stylesheet_tag }}
   </body>
 </html>
