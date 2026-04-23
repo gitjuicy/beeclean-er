@@ -1,0 +1,27 @@
+# Configuration (local only)
+###############################
+config.yml
+config.yml.local
+
+# Compiled/generated assets
+###############################
+assets/*.min.css
+assets/*.min.js
+assets/*.bundle.js
+templates-compiled/
+*.rsc
+
+# Local dev tools
+###############################
+.exclude
+.zoom/
+
+# Documentation (not deployed)
+###############################
+docs/
+*.md
+README*
+
+# Project Support Files
+###############################
+.horizon-theme/

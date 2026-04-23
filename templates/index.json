@@ -1,48 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
+      "custom_css": [
+        "::after {display: none;}"
       ],
       "settings": {
+        "image": "shopify://shop_images/Faire_Header_Opt2_030226.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
+        "image_behavior": "none",
         "desktop_content_position": "bottom-center",
-        "show_text_box": false,
         "desktop_content_alignment": "center",
+        "show_text_box": false,
         "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
         "show_text_below": false
       }
     },
@@ -52,97 +34,41 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "sanitizer that's actually good for your hands.",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Organic beeswax hand sanitizer that kills 99.9% of germs, protects and moisturizes while it works, and is made with organic ingredients you can actually pronounce.</p>"
+          }
+        },
+        "button_nERdAB": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/hand-sanitizers",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading",
-        "text"
+        "text",
+        "button_nERdAB"
       ],
+      "custom_css": [],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "heading_size": "h1",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "multicolumn": {
@@ -151,8 +77,9 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify://shop_images/BeeClean_Web_Assets_Icons-14.png",
+            "title": "KILLS 99.9% OF GERMS",
+            "text": "<p>Beeswax Protects AND moisturizes</p>",
             "link_label": "",
             "link": ""
           }
@@ -160,8 +87,9 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify://shop_images/BeeClean_Web_Assets_Icons-15.png",
+            "title": "NATURALLY MOISTURIZES",
+            "text": "<p>With Organic Bee's Wax, Vitamin E, and Lanolin</p>",
             "link_label": "",
             "link": ""
           }
@@ -169,8 +97,9 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify://shop_images/BeeClean_Web_Assets_Icons-16.png",
+            "title": "Conveniently sized",
+            "text": "<p>The size of a credit card</p>",
             "link_label": "",
             "link": ""
           }
@@ -183,28 +112,238 @@
       ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "circle",
+        "button_label": "",
+        "button_link": "",
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false,
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "image_banner_icEYxY": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_iTCpwU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Not your average sanitizer.",
+            "heading_size": "h1"
+          }
+        },
+        "text_6cP7jH": {
+          "type": "text",
+          "settings": {
+            "text": "Most hand sanitizers dry you out and smell like a hospital. We thought that was a pretty low bar to clear.Bee Clean is built around a patent-pending beeswax formula — sourced from US bee communities — that forms a protective, antimicrobial barrier while softening your skin. Organic essential oils. 200 sprays per bottle. Fits in your pocket like a credit card.Because the everyday stuff should work beautifully.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iTCpwU",
+        "text_6cP7jH"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/BeeClean_Web_Assets_BeeBG.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "multirow_LzKTTk": {
+      "type": "multirow",
+      "blocks": {
+        "row_kepgHF": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/81eAvAkX4_L._SL1500.webp",
+            "caption": "Featured",
+            "heading": "Beeswax Hand Sanitizer - Organic Lavender Oil",
+            "text": "",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/beeswax-hand-sanitizer-organic-lavender-oil-12-pack"
+          }
+        },
+        "row_7UJw8e": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/81iVzhCBzLL._SL1500.webp",
+            "caption": "Featured",
+            "heading": "Beeswax Hand Sanitizer - Citrus & Peppermint",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/beeswax-hand-sanitizer-citrus-and-peppermint-4-pack-copy"
+          }
+        },
+        "row_t4EFWh": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/bee-clean-beeswax-hand-sanitizer.webp",
+            "caption": "Featured",
+            "heading": "Beeswax Hand Sanitizer - Variety Packs",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/beeswax-hand-sanitizer-variety-pack-2-of-each"
+          }
+        }
+      },
+      "block_order": [
+        "row_kepgHF",
+        "row_7UJw8e",
+        "row_t4EFWh"
+      ],
+      "custom_css": [
+        ".multirow__inner {row-gap: 0;}"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_Kq6Q4G": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7Yw9pX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Good for you. Good for the bees. Good for the planet.",
+            "heading_size": "h1"
+          }
+        },
+        "text_yVACLG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're a New Mexico-born brand that uses business as a force for the common good — supporting bee communities, sourcing organic ingredients, and doing the harder right thing every time.<br/><br/>Why Beeswax? Beeswax has been used as a moisturizer for hundreds of years, but nobody has been able to figure out how to use it in a hand sanitizer.</p><p>Nothing else feels like it, smells like it, or works like it. BeeClean mists on neatly. Kills germs effectively. And protects and moisturizes hands beautifully.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_3qpmdC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_7Yw9pX",
+        "text_yVACLG",
+        "button_3qpmdC"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/ante-hamersmit-gi1f13S1-64-unsplash_aed4f63e-526e-4091-b771-6aa332f51d34.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_JxRgxE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JWUP4F": {
+          "type": "heading",
+          "settings": {
+            "heading": "BECOME A WHOLESALER",
+            "heading_size": "h1"
+          }
+        },
+        "text_6DBKGM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We partner with both small merchants and large wholesalers. With a supply chain you can count on and an accessible sales approach, we've proven a fantastic partner that cares.</p>"
+          }
+        },
+        "button_GhEPVh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JWUP4F",
+        "text_6DBKGM",
+        "button_GhEPVh"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "177688032448317b7e": {
+      "type": "apps",
+      "blocks": {
+        "mappy_store_locator_page_embed_block_KB9HwV": {
+          "type": "shopify://apps/mappy-store-locator/blocks/page-embed-block/edfca2bd-82ad-413c-b32c-580d239b17ab",
+          "settings": {
+            "is_show_heading_map": true,
+            "is_show_description_map": false
+          }
+        }
+      },
+      "block_order": [
+        "mappy_store_locator_page_embed_block_KB9HwV"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "multicolumn",
+    "image_banner_icEYxY",
+    "multirow_LzKTTk",
+    "image_with_text_Kq6Q4G",
+    "rich_text_JxRgxE",
+    "177688032448317b7e"
   ]
 }
