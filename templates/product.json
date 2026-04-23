@@ -45,16 +45,12 @@
             "show_gift_card_recipient": false
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
+            "heading": "Product Details",
+            "icon": "clipboard",
+            "content": "<p>Bee Clean Organic Beeswax Hand Sanitizer Spray redefines clean hands with a moisturizing, skin-first formula. Powered by organic ethyl alcohol and enriched with naturally hydrating beeswax, this lightweight mist effectively cleanses while helping prevent dryness—so your hands feel soft, smooth, and refreshed after every use. Infused with nourishing essential oils, it delivers gentle hydration that’s especially welcome for dry or frequently washed hands, without any sticky residue.</p><p>Designed for life on the move, this compact, travel-size spray slips easily into pockets, purses, or clips onto a lanyard for effortless, everyday use. Non-toxic and gentle enough for all ages, Bee Clean is a family-friendly essential for school, travel, outdoor adventures, and daily errands. Choose from refreshing lavender or citrus peppermint scents and enjoy clean, hydrated hands wherever the day takes you.</p>",
             "page": ""
           }
         },
@@ -99,7 +95,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
