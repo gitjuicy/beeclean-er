@@ -4,6 +4,46 @@
    never modified.
    ============================================================ */
 
+/* Left‑justify social icons in the footer */
+.footer__list-social {
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+
+/* Increase social icon size by 75% in the footer */
+.footer__list-social .list-social__item .icon {
+  height: 3rem !important;
+  width: 3rem !important;
+}
+
+/* Scale wrapper to match icon size */
+.footer__list-social .svg-wrapper {
+  width: 3rem !important;
+  height: 3rem !important;
+}
+
+/* Remove left padding from the first social icon (Facebook) */
+.footer__list-social .list-social__link:first-child {
+  padding-left: 0 !important;
+}
+
+/* Left‑justify copyright block */
+.footer__copyright {
+  text-align: left !important;
+}
+
+/* Ensure content-bottom wrapper aligns left */
+.footer__content-bottom-wrapper {
+  justify-content: flex-start !important;
+}
+
+/* Hide empty footer columns */
+.footer__localization.isolate:empty,
+.footer__column--info:empty {
+  display: none !important;
+}
+
+
 /* Override the link colour across all color schemes.
    --color-link is an RGB tuple consumed by base.css as:
      default  → rgba(--color-link, 0.85)   muted teal
