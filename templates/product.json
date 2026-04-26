@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "sku_WhACfB": {
+          "type": "sku",
+          "settings": {
+            "text_style": "body"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {}
@@ -62,6 +68,7 @@
         }
       },
       "block_order": [
+        "sku_WhACfB",
         "title",
         "caption",
         "price",
