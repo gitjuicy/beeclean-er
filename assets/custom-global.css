@@ -1,0 +1,59 @@
+/* ============================================================
+   Global overrides
+   Uses Dawn's own CSS variable hooks so theme files are
+   never modified.
+   ============================================================ */
+
+/* Override the link colour across all color schemes.
+   --color-link is an RGB tuple consumed by base.css as:
+     default  → rgba(--color-link, 0.85)   muted teal
+     hover    → rgb(--color-link)           full #7faca8
+   Targeting :root + [class*='color-'] matches Dawn's per-scheme
+   specificity and ensures no scheme can override it. */
+:root,
+[class*='color-'] {
+  --color-link: 127, 172, 168; /* #7faca8 */
+  --color-secondary-button: 117, 166, 156; /* #75a69c */
+  --color-secondary-button-text: 117, 166, 156; /* same teal — makes the border solid colour */
+}
+
+/* Cart count bubble — background pill on the cart icon */
+.cart-count-bubble {
+  background-color: #75a69c;
+}
+
+/* Secondary button — border only, no fill.
+   --alpha-button-background: 0 removes the solid fill.
+   The ::after pseudo-element draws the border using
+   rgb(var(--color-secondary-button)) so that value
+   is set to #75a69c.
+   Hover darkens the border via a more specific rule. */
+.button--secondary {
+  --alpha-button-background: 0;
+}
+
+.button--secondary::after {
+  --color-secondary-button: 93, 124, 117; /* #5d7c75 — 30% darker than #75a69c */
+  --border-opacity: 1;
+}
+
+/* Keep the border colour consistent across hover/focus */
+.button--secondary:hover::after,
+.button--secondary:focus-visible::after {
+  --color-secondary-button: 93, 124, 117;
+}
+
+/* Hide search icon */
+.search__button .icon {
+  display: none;
+}
+
+/* Hide header search icon */
+.header__icon--search .icon {
+  display: none;
+}
+
+/* Hide any SVG inside header search icon */
+.header__icon--search svg {
+  display: none;
+}
