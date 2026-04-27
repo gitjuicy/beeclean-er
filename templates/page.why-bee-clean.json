@@ -117,12 +117,254 @@
         "mobile_content_alignment": "center",
         "show_text_below": true
       }
+    },
+    "rich_text_wtAVrQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dY98kj": {
+          "type": "heading",
+          "settings": {
+            "heading": "What's Inside",
+            "heading_size": "h1"
+          }
+        },
+        "text_nELJd7": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_dY98kj",
+        "text_nELJd7"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "multirow_4qXPJg": {
+      "type": "multirow",
+      "blocks": {
+        "row_AKQdhQ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_pjii75pjii75pjii.png",
+            "caption": "Ingredient#1",
+            "heading": "BEESWAX",
+            "text": "<p>Sourced from US bee communities. Natural antimicrobial and skin-conditioning agent. Protect skin from dryness and irritation while providing antimicrobial support.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_pW4fVM": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_nkyk2unkyk2unkyk.png",
+            "caption": "Ingredient#2",
+            "heading": "Organic Ethyl Alcohol",
+            "text": "<p>The primary germ-killing agent. Effective, fast-acting, and widely trusted for sanitization.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_RAkzgq": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_ww8o7lww8o7lww8o.png",
+            "caption": "Ingredient#3",
+            "heading": "ESSENTIAL OILS",
+            "text": "<p>No artificial fragrances. We use carefully selected essential oils not just for their clean, uplifting scents, but their soothing properties.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_xzkMri": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_bswqq5bswqq5bswq.png",
+            "caption": "Ingredient#4",
+            "heading": "PLANT OILS & EXTRACTS",
+            "text": "<p>Vitamin E and Lanolin help condition skin and create a balanced formula that works <em>with </em>your body—not against it.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_AKQdhQ",
+        "row_pW4fVM",
+        "row_RAkzgq",
+        "row_xzkMri"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_7fVrGt": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_apwyJx": {
+          "type": "column",
+          "settings": {
+            "title": "THOUGHTFUL FORMULATION",
+            "text": "<p>ach product starts with a carefully balanced formula that blends effectiveness and gentleness. We test for performance, stability, and skin feel—because clean should feel good.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Bdz3bL": {
+          "type": "column",
+          "settings": {
+            "title": "SMALL BATCH CARE",
+            "text": "<p>As a small New Mexico business, we prioritize quality over shortcuts. Our production process allows us to maintain consistency, integrity, and attention to detail.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gEhUqk": {
+          "type": "column",
+          "settings": {
+            "title": "DESIGNED FOR REAL LIFE",
+            "text": "<p>The perfect size — in your pocket, your purse, your kid's backpack, your center console. No bulk. No leaks. No excuse not to have it with you.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_apwyJx",
+        "column_Bdz3bL",
+        "column_gEhUqk"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "HOW IT'S MADE",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_GbCjLG": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_nbAeAA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How large is the package",
+            "icon": "question_mark",
+            "row_content": "<p>The exact size of a credit card, and 3/8 ” thick.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9DgrNL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is Bee Clean really leak-free",
+            "icon": "question_mark",
+            "row_content": "<p>You’d better believe it! Over two thousand combined hours of daily carry tested.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8mLfQC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I take Bee Clean on an airplane",
+            "icon": "question_mark",
+            "row_content": "<p>Absolutely! The 20ML content is well under the TSA limit.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NUkV3h": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How many sprays are in one package",
+            "icon": "question_mark",
+            "row_content": "<p>There are two hundred sprays per package!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_caiNF4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where can I buy Bee Clean",
+            "icon": "question_mark",
+            "row_content": "<p>You can purchase Bee Clean right here on the site or visit the <a href=\"/pages/store-locator-1\" title=\"Store Locator\">Store Locator</a> to find it near you.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aT3Um8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's the difference between a mist and a spray",
+            "icon": "question_mark",
+            "row_content": "<p>A mist is very small droplets of liquid suspended in air. A spray is much larger droplets of liquid that dissipate quickly.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_nbAeAA",
+        "collapsible_row_9DgrNL",
+        "collapsible_row_8mLfQC",
+        "collapsible_row_NUkV3h",
+        "collapsible_row_caiNF4",
+        "collapsible_row_aT3Um8"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner_xzGWQq",
     "main",
     "rich_text_tA8PEB",
-    "image_banner_kdAGnh"
+    "image_banner_kdAGnh",
+    "rich_text_wtAVrQ",
+    "multirow_4qXPJg",
+    "multicolumn_7fVrGt",
+    "collapsible_content_GbCjLG"
   ]
 }
