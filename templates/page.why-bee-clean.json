@@ -226,6 +226,7 @@
         "column_apwyJx": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/thoughtful-formulation-icon.png",
             "title": "THOUGHTFUL FORMULATION",
             "text": "<p>Our product starts with a carefully balanced formula that blends effectiveness and gentleness. We test for performance, stability, and skin feel—because clean should feel good.</p>",
             "link_label": "",
@@ -235,6 +236,7 @@
         "column_Bdz3bL": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/small-batch-icon.png",
             "title": "SMALL BATCH CARE",
             "text": "<p>As a small New Mexico business, we prioritize quality over shortcuts. Our production process allows us to maintain consistency, integrity, and attention to detail.</p>",
             "link_label": "",
@@ -244,6 +246,7 @@
         "column_gEhUqk": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/design-life-icon.png",
             "title": "DESIGNED FOR REAL LIFE",
             "text": "<p>The perfect size — in your pocket, your purse, your kid's backpack, your center console. No bulk. No leaks. No excuse not to have it with you.</p>",
             "link_label": "",
@@ -267,7 +270,7 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
