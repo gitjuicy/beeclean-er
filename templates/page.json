@@ -22,7 +22,9 @@
         "heading_A9ttVU": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>About Us</strong>",
+            "heading": "",
+            "use_h1": true,
+            "use_page_title": true,
             "heading_size": "hxxl"
           }
         }
