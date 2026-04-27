@@ -1,0 +1,215 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_xzGWQq": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_A9ttVU": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>About Us</strong>",
+            "heading_size": "hxxl"
+          }
+        }
+      },
+      "block_order": [
+        "heading_A9ttVU"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/boris-smokrovic-gr7ZkoZnHXU-unsplash.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
+        "image_behavior": "fixed",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "rich_text_tA8PEB": {
+      "type": "rich-text",
+      "blocks": {
+        "text_NDVhyq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bee Clean was born in New Mexico — land of big sky, brilliant sun, and a particular kind of grit that makes you believe that doing things right is always worth it.</p><p>We started with a simple conviction: the products people use every single day should be good. Actually good. Good for your body, for the bees, for the communities that make it all possible.</p><p>So we built something better.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_NDVhyq"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_Y7xzdK": {
+      "type": "multirow",
+      "blocks": {
+        "row_QcQWJy": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/BeeClean_Web_Assets-12.png",
+            "caption": "",
+            "heading": "The Formula",
+            "text": "<p><strong>Nature figured this out long before we did.</strong></p><p>Bees have been producing one of the most powerful natural antimicrobials on earth for millions of years. We just learned how to put it to work.</p><p>Our patent-pending beeswax infusion process creates a hand sanitizer that kills 99.9% of germs and — unlike every alcohol-based formula before it — actually protects and moisturizes your skin while it works. Made with organic ingredients. No mystery chemicals. Nothing you can't pronounce.</p><p>We call it Elevated Everyday Essentials. Smart formats, better ingredients, less fuss.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_dXwdWw": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/BeeClean_Web_Assets-13.png",
+            "caption": "",
+            "heading": "Our Story",
+            "text": "<p>Emerging from Albuquerque. Built for everywhere.<br/><br/>We're a small, family-minded team that started from the bottom and grew because we refused to cut corners. Our New Mexican roots run deep — the desert teaches you that resilience and beauty aren't opposites. You can have both.</p><p>We're here for the long game.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_QcQWJy",
+        "row_dXwdWw"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_xa8fnN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PxEjkm": {
+          "type": "heading",
+          "settings": {
+            "heading": "What Makes Us Different",
+            "heading_size": "h1"
+          }
+        },
+        "text_Ga3D4k": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>We use business as a force for the common good.</strong></p><p>That means supporting US bee communities. Sourcing delightful, organic ingredients. Choosing the harder path because people and planet deserve better. And making products that are designed to stay in your life — not rotate out with the next trend.</p><p>This isn't wellness theater. It's a beeswax hand sanitizer. But we believe that elevating even the smallest daily habit can be an act of care — for yourself, your family, and the world around you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PxEjkm",
+        "text_Ga3D4k"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_U9V8pE": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Q6bUxp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BeeClean_Web_Assets_Icons-15.png",
+            "title": "Kind By Nature",
+            "text": "<p>We use 100% organic and natural ingredients that are safe for the whole family. Our beeswax-based formulas moisturize even while they sanitize, helping prevent dryness and cracked skin.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kD6f9a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BeeClean_Web_Assets_Icons-16.png",
+            "title": "Thoughtful Design",
+            "text": "<p>Our convenient spray-on mists come in recyclable, travel-friendly packaging that fits easily into purses, pockets, backpacks, and more.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_J9xWmX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BeeClean_Web_Assets_Icons-14.png",
+            "title": "Earth And Family Friendly",
+            "text": "<p>We take care in choosing ingredients and packaging that are gentle on the planet and on the people you love most.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Q6bUxp",
+        "column_kD6f9a",
+        "column_J9xWmX"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_xzGWQq",
+    "rich_text_tA8PEB",
+    "multirow_Y7xzdK",
+    "rich_text_xa8fnN",
+    "multicolumn_U9V8pE"
+  ]
+}
