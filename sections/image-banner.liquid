@@ -53,7 +53,7 @@
 
 <div
   id="Banner-{{ section.id }}"
-  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}" style="background-color: {{ section.settings.section_bg_color }};"
+  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}{% if section.settings.split_view %} banner--split-view{% endif %}" style="background-color: {{ section.settings.section_bg_color }};"
 >
   {%- if section.settings.image != blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank or section.settings.split_view %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
@@ -253,6 +253,19 @@
       "default": "none",
       "label": "t:sections.all.animation.image_behavior.label"
     },
+
+    {
+      "type": "color",
+      "id": "section_bg_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "checkbox",
+      "id": "split_view",
+      "default": false,
+      "label": "Enable split view without second background image"
+    },
     {
       "type": "header",
       "content": "t:sections.image-banner.settings.content.content"
@@ -334,18 +347,6 @@
       "default": "scheme-1"
     },
     {
-      "type": "color",
-      "id": "section_bg_color",
-      "label": "Background color",
-      "default": "#ffffff"
-    },
-    {
-      "type": "checkbox",
-      "id": "split_view",
-      "default": false,
-      "label": "Enable split view without second background image"
-    },
-    {
       "type": "header",
       "content": "t:sections.image-banner.settings.mobile.content"
     },
@@ -354,7 +355,8 @@
       "id": "stack_images_on_mobile",
       "default": true,
       "label": "t:sections.image-banner.settings.stack_images_on_mobile.label"
-    },    
+    },
+
     {
       "type": "select",
       "id": "mobile_content_alignment",
@@ -380,7 +382,8 @@
       "id": "show_text_below",
       "default": true,
       "label": "t:sections.image-banner.settings.show_text_below.label"
-    },],
+    },
+  ],
   "blocks": [
     {
       "type": "heading",

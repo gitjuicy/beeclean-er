@@ -23,8 +23,6 @@
         "desktop_content_alignment": "center",
         "show_text_box": false,
         "color_scheme": "scheme-3",
-        "section_bg_color": "#ffffff",
-        "split_view": false,
         "stack_images_on_mobile": false,
         "mobile_content_alignment": "center",
         "show_text_below": false
@@ -136,8 +134,6 @@
           "type": "heading",
           "settings": {
             "heading": "Not your average sanitizer.",
-            "use_h1": false,
-            "use_page_title": false,
             "heading_size": "h1"
           }
         },
@@ -163,8 +159,6 @@
         "desktop_content_alignment": "center",
         "show_text_box": false,
         "color_scheme": "scheme-1",
-        "section_bg_color": "#ffca61",
-        "split_view": false,
         "stack_images_on_mobile": true,
         "mobile_content_alignment": "center",
         "show_text_below": true

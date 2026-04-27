@@ -158,13 +158,13 @@
   }
 }
 
-.banner__media {
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-}
+  .banner__media {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
 
 .banner__media-half {
   width: 50%;
@@ -224,9 +224,13 @@
     position: relative;
   }
 
-  .banner--stacked.banner--adapt .banner__content {
-    height: auto;
-  }
+    .banner--stacked.banner--adapt .banner__content {
+      max-height: 100%;
+      overflow: hidden;
+      position: absolute;
+    }
+
+
 
   .banner:not(.banner--mobile-bottom):not(.email-signup-banner) .banner__box {
     background: transparent;
@@ -324,6 +328,14 @@
   .banner__content--bottom-right {
     align-items: flex-end;
     justify-content: flex-end;
+  }
+  .banner--split-view .banner__content {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    padding: 5rem;
   }
 }
 
@@ -490,3 +502,32 @@
     color: currentColor;
   }
 }
+
+/* Image positioning helpers removed */
+/* Ensure slideshow images are centered */
+.slideshow__media img {
+  object-position: center center !important;
+}
+/* Ensure banner images are centered */
+.banner__media img {
+  object-position: center center !important;
+}
+/* Image scaling modes */
+.banner__media-scale-cover img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+.banner__media-scale-width img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain;
+}
+.banner__media-scale-height img {
+  width: auto !important;
+  height: 100% !important;
+  object-fit: contain;
+}
+
+/* Pixel‑based position offset removed */
+
