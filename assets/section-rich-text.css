@@ -84,3 +84,14 @@
 .rich-text__blocks.right .rich-text__buttons {
   justify-content: flex-end;
 }
+
+/* Icon styling for inline SVG and img */
+.rich-text__icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.rich-text__icon svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}

@@ -40,7 +40,20 @@
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
               >
-                {{ block.settings.caption | escape }}
+                 {% if block.settings.icon != blank %}
+                   {% if block.settings.icon contains '.svg' %}
+                     <span class="rich-text__icon"
+                           style="{% if block.settings.icon_color != blank %}color:{{ block.settings.icon_color }};{% endif %}width:{{ block.settings.icon_scale | default: 24 }}px;height:{{ block.settings.icon_scale | default: 24 }}px;"
+                           aria-hidden="true">{{ block.settings.icon | inline_asset_content }}</span>
+                   {% else %}
+                     <img src="{{ block.settings.icon | asset_url }}" class="rich-text__icon"
+                          width="{{ block.settings.icon_scale | default: 24 }}"
+                          height="{{ block.settings.icon_scale | default: 24 }}"
+                          {% if block.settings.icon_color != blank %}style="color:{{ block.settings.icon_color }};"{% endif %}
+                          alt="" aria-hidden="true">
+                   {% endif %}
+                 {% endif %}
+                 {{ block.settings.caption | escape }}
               </p>
             {%- when 'text' -%}
               <div
@@ -267,9 +280,116 @@
             }
           ],
           "default": "medium",
-          "label": "t:sections.rich-text.blocks.caption.settings.caption_size.label"
-        }
-      ]
+            "label": "t:sections.rich-text.blocks.caption.settings.caption_size.label",
+          },
+            {
+              "type": "select",
+              "id": "icon",
+              "options": [
+                { "value": "", "label": "None" },
+                { "value": "icon-3d-model.svg", "label": "icon-3d-model.svg" },
+                { "value": "icon-apple.svg", "label": "icon-apple.svg" },
+                { "value": "icon-account.svg", "label": "icon-account.svg" },
+                { "value": "icon-zoom.svg", "label": "icon-zoom.svg" },
+                { "value": "icon-washing.svg", "label": "icon-washing.svg" },
+                { "value": "icon-vimeo.svg", "label": "icon-vimeo.svg" },
+                { "value": "icon-youtube.svg", "label": "icon-youtube.svg" },
+                { "value": "icon-stopwatch.svg", "label": "icon-stopwatch.svg" },
+                { "value": "icon-snowflake.svg", "label": "icon-snowflake.svg" },
+                { "value": "icon-tick.svg", "label": "icon-tick.svg" },
+                { "value": "icon-snapchat.svg", "label": "icon-snapchat.svg" },
+                { "value": "icon-tumblr.svg", "label": "icon-tumblr.svg" },
+                { "value": "icon-truck.svg", "label": "icon-truck.svg" },
+                { "value": "icon-twitter.svg", "label": "icon-twitter.svg" },
+                { "value": "icon-success.svg", "label": "icon-success.svg" },
+                { "value": "icon-tiktok.svg", "label": "icon-tiktok.svg" },
+                { "value": "icon-unavailable.svg", "label": "icon-unavailable.svg" },
+                { "value": "icon-star.svg", "label": "icon-star.svg" },
+                { "value": "icon-return.svg", "label": "icon-return.svg" },
+                { "value": "icon-share.svg", "label": "icon-share.svg" },
+                { "value": "icon-shopify.svg", "label": "icon-shopify.svg" },
+                { "value": "icon-search.svg", "label": "icon-search.svg" },
+                { "value": "icon-serving-dish.svg", "label": "icon-serving-dish.svg" },
+                { "value": "icon-shoe.svg", "label": "icon-shoe.svg" },
+                { "value": "icon-recycle.svg", "label": "icon-recycle.svg" },
+                { "value": "icon-remove.svg", "label": "icon-remove.svg" },
+                { "value": "icon-ruler.svg", "label": "icon-ruler.svg" },
+                { "value": "icon-silhouette.svg", "label": "icon-silhouette.svg" },
+                { "value": "icon-reset.svg", "label": "icon-reset.svg" },
+                { "value": "icon-shirt.svg", "label": "icon-shirt.svg" },
+                { "value": "icon-price-tag.svg", "label": "icon-price-tag.svg" },
+                { "value": "icon-plus.svg", "label": "icon-plus.svg" },
+                { "value": "icon-question-mark.svg", "label": "icon-question-mark.svg" },
+                { "value": "icon-perfume.svg", "label": "icon-perfume.svg" },
+                { "value": "icon-plane.svg", "label": "icon-plane.svg" },
+                { "value": "icon-plant.svg", "label": "icon-plant.svg" },
+                { "value": "icon-play.svg", "label": "icon-play.svg" },
+                { "value": "icon-pinterest.svg", "label": "icon-pinterest.svg" },
+                { "value": "icon-lock.svg", "label": "icon-lock.svg" },
+                { "value": "icon-pause.svg", "label": "icon-pause.svg" },
+                { "value": "icon-minus.svg", "label": "icon-minus.svg" },
+                { "value": "icon-pants.svg", "label": "icon-pants.svg" },
+                { "value": "icon-map-pin.svg", "label": "icon-map-pin.svg" },
+                { "value": "icon-nut-free.svg", "label": "icon-nut-free.svg" },
+                { "value": "icon-paw-print.svg", "label": "icon-paw-print.svg" },
+                { "value": "icon-pepper.svg", "label": "icon-pepper.svg" },
+                { "value": "icon-padlock.svg", "label": "icon-padlock.svg" },
+                { "value": "icon-leather.svg", "label": "icon-leather.svg" },
+                { "value": "icon-lightning-bolt.svg", "label": "icon-lightning-bolt.svg" },
+                { "value": "icon-lipstick.svg", "label": "icon-lipstick.svg" },
+                { "value": "icon-iron.svg", "label": "icon-iron.svg" },
+                { "value": "icon-leaf.svg", "label": "icon-leaf.svg" },
+                { "value": "icon-instagram.svg", "label": "icon-instagram.svg" },
+                { "value": "icon-gluten-free.svg", "label": "icon-gluten-free.svg" },
+                { "value": "icon-fire.svg", "label": "icon-fire.svg" },
+                { "value": "icon-info.svg", "label": "icon-info.svg" },
+                { "value": "icon-heart.svg", "label": "icon-heart.svg" },
+                { "value": "icon-hamburger.svg", "label": "icon-hamburger.svg" },
+                { "value": "icon-filter.svg", "label": "icon-filter.svg" },
+                { "value": "icon-inventory-status.svg", "label": "icon-inventory-status.svg" },
+                { "value": "icon-clipboard.svg", "label": "icon-clipboard.svg" },
+                { "value": "icon-close-small.svg", "label": "icon-close-small.svg" },
+                { "value": "icon-error.svg", "label": "icon-error.svg" },
+                { "value": "icon-close.svg", "label": "icon-close.svg" },
+                { "value": "icon-checkmark.svg", "label": "icon-checkmark.svg" },
+                { "value": "icon-facebook.svg", "label": "icon-facebook.svg" },
+                { "value": "icon-eye.svg", "label": "icon-eye.svg" },
+                { "value": "icon-check-mark.svg", "label": "icon-check-mark.svg" },
+                { "value": "icon-dairy.svg", "label": "icon-dairy.svg" },
+                { "value": "icon-discount.svg", "label": "icon-discount.svg" },
+                { "value": "icon-dryer.svg", "label": "icon-dryer.svg" },
+                { "value": "icon-copy.svg", "label": "icon-copy.svg" },
+                { "value": "icon-dairy-free.svg", "label": "icon-dairy-free.svg" },
+                { "value": "icon-cart.svg", "label": "icon-cart.svg" },
+                { "value": "icon-caret.svg", "label": "icon-caret.svg" },
+                { "value": "icon-box.svg", "label": "icon-box.svg" },
+                { "value": "icon-bottle.svg", "label": "icon-bottle.svg" },
+                { "value": "icon-chat-bubble.svg", "label": "icon-chat-bubble.svg" },
+                { "value": "icon-carrot.svg", "label": "icon-carrot.svg" },
+                { "value": "icon-cart-empty.svg", "label": "icon-cart-empty.svg" },
+                { "value": "icon-arrow.svg", "label": "icon-arrow.svg" },
+                { "value": "icon-banana.svg", "label": "icon-banana.svg" }
+              ],
+                "default": "",
+                "label": "Icon"
+              },
+              {
+                "type": "range",
+                "id": "icon_scale",
+                "label": "Icon size",
+                "min": 8,
+                "max": 200,
+                "step": 4,
+                "unit": "px",
+                "default": 24
+              },
+              {
+                "type": "color",
+                "id": "icon_color",
+                "label": "Icon color",
+                "default": "#000000"
+              }
+        ]
     },
     {
       "type": "text",

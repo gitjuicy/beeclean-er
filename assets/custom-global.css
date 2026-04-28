@@ -1,0 +1,218 @@
+/* ============================================================
+   Global overrides
+   Uses Dawn's own CSS variable hooks so theme files are
+   never modified.
+   ============================================================ */
+
+/* Left‑justify social icons in the footer */
+.footer__list-social {
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+
+/* Increase social icon size by 75% in the footer */
+.footer__list-social .list-social__item .icon {
+  height: 3rem !important;
+  width: 3rem !important;
+}
+
+/* Scale wrapper to match icon size */
+.footer__list-social .svg-wrapper {
+  width: 3rem !important;
+  height: 3rem !important;
+}
+
+/* Remove left padding from the first social icon (Facebook) */
+.footer__list-social .list-social__link:first-child {
+  padding-left: 0 !important;
+}
+
+/* Left‑justify copyright block */
+.footer__copyright {
+  text-align: left !important;
+}
+
+/* Ensure content-bottom wrapper aligns left */
+.footer__content-bottom-wrapper {
+  justify-content: flex-start !important;
+}
+
+/* Hide empty footer columns */
+.footer__localization.isolate:empty,
+.footer__column--info:empty {
+  display: none !important;
+}
+
+
+/* Override the link colour across all color schemes.
+   --color-link is an RGB tuple consumed by base.css as:
+     default  → rgba(--color-link, 0.85)   muted teal
+     hover    → rgb(--color-link)           full #7faca8
+   Targeting :root + [class*='color-'] matches Dawn's per-scheme
+   specificity and ensures no scheme can override it. */
+:root,
+[class*='color-'] {
+  --color-link: 127, 172, 168; /* #7faca8 */
+  --color-secondary-button: 117, 166, 156; /* #75a69c */
+  --color-secondary-button-text: 117, 166, 156; /* same teal — makes the border solid colour */
+}
+
+/* Cart count bubble — background pill on the cart icon */
+.cart-count-bubble {
+  background-color: #75a69c;
+  color: #fff; /* white text */
+}
+
+/* Secondary button — border only, no fill.
+   --alpha-button-background: 0 removes the solid fill.
+   The ::after pseudo-element draws the border using
+   rgb(var(--color-secondary-button)) so that value
+   is set to #75a69c.
+   Hover darkens the border via a more specific rule. */
+.button--secondary {
+  --alpha-button-background: 0;
+}
+
+.button--secondary::after {
+  --color-secondary-button: 93, 124, 117; /* #5d7c75 — 30% darker than #75a69c */
+  --border-opacity: 1;
+}
+
+/* Keep the border colour consistent across hover/focus */
+.button--secondary:hover::after,
+.button--secondary:focus-visible::after {
+  --color-secondary-button: 93, 124, 117;
+}
+
+/* Hide search icon */
+.search__button .icon {
+  display: none;
+}
+
+/* Hide header search icon */
+.header__icon--search .icon {
+  display: none;
+}
+
+/* Hide any SVG inside header search icon */
+.header__icon--search svg {
+  display: none;
+}
+
+
+.cart-notification .button.button--secondary.button--full-width {
+  background-color: #75a69c;
+  border: none;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 990px) {
+  .header--middle-center:not(.drawer-menu).header--menu-center-below {
+    grid-template-areas:
+      'left-icons heading icons'
+      'navigation navigation navigation';
+    grid-template-columns: 1fr auto 1fr;
+    column-gap: 0;
+    row-gap: 0;
+  }
+
+  .header--middle-center:not(.drawer-menu).header--menu-center-below .header__inline-menu {
+    margin-left: 0;
+    justify-self: stretch;
+    padding-top: 1rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Full-bleed separator line */
+  .header--middle-center:not(.drawer-menu).header--menu-center-below .header__inline-menu::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    border-top: 1px solid rgba(var(--color-foreground), 0.1);
+  }
+
+  .header--middle-center:not(.drawer-menu).header--menu-center-below .header__heading-link {
+    margin-left: 0;
+  }
+
+  .header--middle-center:not(.drawer-menu).header--menu-center-below .header__inline-menu > .list-menu--inline {
+    justify-content: center;
+  }
+}
+section#shopify-section-template--18631716274275__image_banner_icEYxY {
+    background: #ffca61;
+}
+sticky-header.header-wrapper.color-scheme-1.gradient
+ {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 20px, rgba(0, 0, 0, 0.07) 0px 6px 6px;
+}
+.footer__content-top {
+  padding-bottom: unset;
+}
+
+/* ============================================================
+   Product page — variant pill overrides
+   Targets Dawn's CSS custom property hooks and pill selectors
+   so theme files are never modified.
+   ============================================================ */
+
+/* Switch container to gap-based spacing so percentage widths work cleanly */
+.product-form__input--pill {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+/* Inactive state — grey outline and grey text, no fill */
+.product-form__input--pill input[type='radio'] + label {
+  --variant-pills-radius: 10px;
+  width: calc(50% - 0.4rem);
+  margin: 0;
+  background-color: transparent;
+  color: #888;
+  border-color: #888;
+}
+
+/* Keep the pseudo-element shadow in sync with the new radius */
+.product-form__input--pill input[type='radio'] + label::before {
+  border-radius: 10px;
+}
+
+/* Hover state — nudge border towards purple */
+.product-form__input--pill input[type='radio'] + label:hover {
+  border-color: #9788ab;
+  color: #9788ab;
+}
+
+/* Active/checked state — purple fill, white text */
+.product-form__input--pill input[type='radio']:checked + label {
+  background-color: #9788ab;
+  border-color: #9788ab;
+  color: #fff;
+}
+
+/* ============================================================
+   Search results page — match collection page style
+   ============================================================ */
+
+/* Desktop: force 3 products per row (larger cards) */
+@media screen and (min-width: 750px) {
+  .template-search__results .grid__item {
+    width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
+    max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
+  }
+}
+
+/* Hide all filter, sort, and active-facet UI */
+.template-search .facets-container,
+.template-search .facets-wrapper,
+.template-search .facet-filters,
+.template-search .facets-vertical-sort,
+.template-search .active-facets {
+  display: none !important;
+}

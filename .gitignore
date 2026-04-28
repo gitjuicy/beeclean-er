@@ -70,6 +70,7 @@ coverage/
 .cursorignore
 .mcpx/
 .claude/
+.playwright-mcp/
 .codeium/
 .windsurfrc
 *.ai

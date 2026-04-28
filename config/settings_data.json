@@ -104,8 +104,8 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "scheme-5",
     "sold_out_badge_color_scheme": "scheme-3",
-    "social_facebook_link": "",
-    "social_instagram_link": "",
+    "social_facebook_link": "https://facebook.com",
+    "social_instagram_link": "https://instagram.com",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
@@ -141,9 +141,9 @@
         "settings": {
           "background": "#fbf6e9",
           "background_gradient": "",
-          "text": "#686867",
+          "text": "#000000",
           "button": "#ffca61",
-          "button_label": "#686867",
+          "button_label": "#000000",
           "secondary_button_label": "#ffca61",
           "shadow": "#686867"
         }
@@ -183,12 +183,12 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#334fb4",
+          "background": "#686867",
           "background_gradient": "",
           "text": "#ffffff",
-          "button": "#ffffff",
-          "button_label": "#334fb4",
-          "secondary_button_label": "#ffffff",
+          "button": "#ffca61",
+          "button_label": "#f3f3f3",
+          "secondary_button_label": "#ffca61",
           "shadow": "#121212"
         }
       }
@@ -348,9 +348,9 @@
       "sale_badge_color_scheme": "scheme-5",
       "sold_out_badge_color_scheme": "scheme-3",
       "social_twitter_link": "",
-      "social_facebook_link": "",
+      "social_facebook_link": "https://facebook.com",
       "social_pinterest_link": "",
-      "social_instagram_link": "",
+      "social_instagram_link": "https://instagram.com",
       "social_tiktok_link": "",
       "social_tumblr_link": "",
       "social_snapchat_link": "",
